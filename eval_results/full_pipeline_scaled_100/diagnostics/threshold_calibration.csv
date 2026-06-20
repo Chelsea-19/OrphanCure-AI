@@ -1,0 +1,16 @@
+threshold_name,threshold,subset,n_rows,calibration_source,exploratory,accuracy,precision,recall,f1,roc_auc,confusion_matrix,balanced_accuracy
+default_threshold,0.5,dev,0,all_rows_exploratory_no_dev_rows,True,,,,,,"{'tn': 0, 'fp': 0, 'fn': 0, 'tp': 0}",0.0
+default_threshold,0.5,test,0,all_rows_exploratory_no_dev_rows,True,,,,,,"{'tn': 0, 'fp': 0, 'fn': 0, 'tp': 0}",0.0
+default_threshold,0.5,all,0,all_rows_exploratory_no_dev_rows,True,,,,,,"{'tn': 0, 'fp': 0, 'fn': 0, 'tp': 0}",0.0
+best_f1_threshold,1.0,dev,0,all_rows_exploratory_no_dev_rows,True,,,,,,"{'tn': 0, 'fp': 0, 'fn': 0, 'tp': 0}",0.0
+best_f1_threshold,1.0,test,0,all_rows_exploratory_no_dev_rows,True,,,,,,"{'tn': 0, 'fp': 0, 'fn': 0, 'tp': 0}",0.0
+best_f1_threshold,1.0,all,0,all_rows_exploratory_no_dev_rows,True,,,,,,"{'tn': 0, 'fp': 0, 'fn': 0, 'tp': 0}",0.0
+best_balanced_accuracy_threshold,1.0,dev,0,all_rows_exploratory_no_dev_rows,True,,,,,,"{'tn': 0, 'fp': 0, 'fn': 0, 'tp': 0}",0.0
+best_balanced_accuracy_threshold,1.0,test,0,all_rows_exploratory_no_dev_rows,True,,,,,,"{'tn': 0, 'fp': 0, 'fn': 0, 'tp': 0}",0.0
+best_balanced_accuracy_threshold,1.0,all,0,all_rows_exploratory_no_dev_rows,True,,,,,,"{'tn': 0, 'fp': 0, 'fn': 0, 'tp': 0}",0.0
+high_precision_threshold,1.0,dev,0,all_rows_exploratory_no_dev_rows,True,,,,,,"{'tn': 0, 'fp': 0, 'fn': 0, 'tp': 0}",0.0
+high_precision_threshold,1.0,test,0,all_rows_exploratory_no_dev_rows,True,,,,,,"{'tn': 0, 'fp': 0, 'fn': 0, 'tp': 0}",0.0
+high_precision_threshold,1.0,all,0,all_rows_exploratory_no_dev_rows,True,,,,,,"{'tn': 0, 'fp': 0, 'fn': 0, 'tp': 0}",0.0
+high_recall_threshold,1.0,dev,0,all_rows_exploratory_no_dev_rows,True,,,,,,"{'tn': 0, 'fp': 0, 'fn': 0, 'tp': 0}",0.0
+high_recall_threshold,1.0,test,0,all_rows_exploratory_no_dev_rows,True,,,,,,"{'tn': 0, 'fp': 0, 'fn': 0, 'tp': 0}",0.0
+high_recall_threshold,1.0,all,0,all_rows_exploratory_no_dev_rows,True,,,,,,"{'tn': 0, 'fp': 0, 'fn': 0, 'tp': 0}",0.0

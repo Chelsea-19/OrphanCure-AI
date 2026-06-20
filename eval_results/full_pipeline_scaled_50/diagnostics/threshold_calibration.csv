@@ -1,0 +1,16 @@
+threshold_name,threshold,subset,n_rows,calibration_source,exploratory,accuracy,precision,recall,f1,roc_auc,confusion_matrix,balanced_accuracy
+default_threshold,0.5,dev,9,dev_split_exploratory_small_n,True,0.7777777777777778,0.8,0.8,0.8000000000000002,0.725,"{'tn': 3, 'fp': 1, 'fn': 1, 'tp': 4}",0.775
+default_threshold,0.5,test,33,dev_split_exploratory_small_n,True,0.42424242424242425,0.5,0.47368421052631576,0.4864864864864865,0.4492481203007519,"{'tn': 5, 'fp': 9, 'fn': 10, 'tp': 9}",0.41541353383458646
+default_threshold,0.5,all,42,dev_split_exploratory_small_n,True,0.5,0.5652173913043478,0.5416666666666666,0.5531914893617021,0.5173611111111112,"{'tn': 8, 'fp': 10, 'fn': 11, 'tp': 13}",0.4930555555555555
+best_f1_threshold,0.55,dev,9,dev_split_exploratory_small_n,True,0.7777777777777778,0.8,0.8,0.8000000000000002,0.725,"{'tn': 3, 'fp': 1, 'fn': 1, 'tp': 4}",0.775
+best_f1_threshold,0.55,test,33,dev_split_exploratory_small_n,True,0.42424242424242425,0.5,0.47368421052631576,0.4864864864864865,0.4492481203007519,"{'tn': 5, 'fp': 9, 'fn': 10, 'tp': 9}",0.41541353383458646
+best_f1_threshold,0.55,all,42,dev_split_exploratory_small_n,True,0.5,0.5652173913043478,0.5416666666666666,0.5531914893617021,0.5173611111111112,"{'tn': 8, 'fp': 10, 'fn': 11, 'tp': 13}",0.4930555555555555
+best_balanced_accuracy_threshold,0.55,dev,9,dev_split_exploratory_small_n,True,0.7777777777777778,0.8,0.8,0.8000000000000002,0.725,"{'tn': 3, 'fp': 1, 'fn': 1, 'tp': 4}",0.775
+best_balanced_accuracy_threshold,0.55,test,33,dev_split_exploratory_small_n,True,0.42424242424242425,0.5,0.47368421052631576,0.4864864864864865,0.4492481203007519,"{'tn': 5, 'fp': 9, 'fn': 10, 'tp': 9}",0.41541353383458646
+best_balanced_accuracy_threshold,0.55,all,42,dev_split_exploratory_small_n,True,0.5,0.5652173913043478,0.5416666666666666,0.5531914893617021,0.5173611111111112,"{'tn': 8, 'fp': 10, 'fn': 11, 'tp': 13}",0.4930555555555555
+high_precision_threshold,0.55,dev,9,dev_split_exploratory_small_n,True,0.7777777777777778,0.8,0.8,0.8000000000000002,0.725,"{'tn': 3, 'fp': 1, 'fn': 1, 'tp': 4}",0.775
+high_precision_threshold,0.55,test,33,dev_split_exploratory_small_n,True,0.42424242424242425,0.5,0.47368421052631576,0.4864864864864865,0.4492481203007519,"{'tn': 5, 'fp': 9, 'fn': 10, 'tp': 9}",0.41541353383458646
+high_precision_threshold,0.55,all,42,dev_split_exploratory_small_n,True,0.5,0.5652173913043478,0.5416666666666666,0.5531914893617021,0.5173611111111112,"{'tn': 8, 'fp': 10, 'fn': 11, 'tp': 13}",0.4930555555555555
+high_recall_threshold,0.3,dev,9,dev_split_exploratory_small_n,True,0.5555555555555556,0.5555555555555556,1.0,0.7142857142857143,0.725,"{'tn': 0, 'fp': 4, 'fn': 0, 'tp': 5}",0.5
+high_recall_threshold,0.3,test,33,dev_split_exploratory_small_n,True,0.5757575757575758,0.5757575757575758,1.0,0.7307692307692308,0.4492481203007519,"{'tn': 0, 'fp': 14, 'fn': 0, 'tp': 19}",0.5
+high_recall_threshold,0.3,all,42,dev_split_exploratory_small_n,True,0.5714285714285714,0.5714285714285714,1.0,0.7272727272727273,0.5173611111111112,"{'tn': 0, 'fp': 18, 'fn': 0, 'tp': 24}",0.5

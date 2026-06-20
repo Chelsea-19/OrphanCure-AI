@@ -1,0 +1,29 @@
+{
+  "benchmark": "opentargets",
+  "mode": "opentargets_only",
+  "n_pairs": 50,
+  "drug_resolution_rate": 1.0,
+  "disease_resolution_rate": 0.82,
+  "target_overlap_rate": 0.18,
+  "known_drug_recovery_rate": 0.0,
+  "mean_opentargets_support_score": 0.058937472016996055,
+  "status_counts": {
+    "success": 33,
+    "partial_success": 17
+  },
+  "notes": "Open Targets metrics measure external evidence support only. They are not clinical truth and may overlap with OrphanCure internal evidence sources.",
+  "by_expected_label": {
+    "negative_or_failed": {
+      "n_pairs": 25,
+      "mean_opentargets_support_score": 0.04941530653250924,
+      "target_overlap_rate": 0.16,
+      "known_drug_recovery_rate": 0.0
+    },
+    "positive": {
+      "n_pairs": 25,
+      "mean_opentargets_support_score": 0.06845963750148287,
+      "target_overlap_rate": 0.2,
+      "known_drug_recovery_rate": 0.0
+    }
+  }
+}

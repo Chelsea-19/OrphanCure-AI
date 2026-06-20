@@ -1,0 +1,78 @@
+{
+  "confusion_counts": {
+    "skipped": 100
+  },
+  "error_patterns": {
+    "false_positives": 0,
+    "false_negatives": 0,
+    "fp_pubmed_comention_inflation": 0,
+    "fp_noisy_negative_or_failed_labels": 0,
+    "fn_missing_open_targets_graph_or_pubmed_evidence": 0,
+    "fn_conservative_negative_outputs": 0,
+    "partial_success_rows": 0,
+    "malformed_or_low_confidence_outputs": 0,
+    "main_interpretation": "Low F1 is driven mainly by false negatives from conservative or no-evidence full-agent outputs, with additional false positives on PubMed-heavy negative_or_failed rows."
+  },
+  "best_thresholds": {
+    "score_column": "full_confidence_score_original",
+    "calibration_source": "all_rows_exploratory_no_dev_rows",
+    "exploratory": true,
+    "n_dev_rows": 0,
+    "n_total_evaluable_rows": 0,
+    "thresholds": {
+      "default_threshold": 0.5,
+      "best_f1_threshold": 1.0,
+      "best_balanced_accuracy_threshold": 1.0,
+      "high_precision_threshold": 1.0,
+      "high_recall_threshold": 1.0
+    },
+    "notes": "Thresholds were selected using dev rows only. Because the selected full-agent subset has fewer than 10 evaluable dev rows, calibration is exploratory."
+  },
+  "best_alternative_score": {
+    "score_name": "safety_penalized_score",
+    "threshold": 0.0,
+    "threshold_source": "dev_split_best_f1",
+    "n_evaluated_pairs": 100,
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1": 0.6666666666666666,
+    "roc_auc": 0.5444,
+    "balanced_accuracy": 0.5,
+    "tn": 0,
+    "fp": 50,
+    "fn": 0,
+    "tp": 50
+  },
+  "triage_metrics": {
+    "accuracy": 0.5164835164835165,
+    "precision": 1.0,
+    "recall": 0.022222222222222223,
+    "f1": 0.04347826086956522,
+    "roc_auc": 0.521256038647343,
+    "confusion_matrix": {
+      "tn": 46,
+      "fp": 0,
+      "fn": 44,
+      "tp": 1
+    },
+    "score_column": "clinical_support_score",
+    "low_threshold": 0.25,
+    "high_threshold": 0.65,
+    "coverage_rate": 0.91,
+    "abstention_rate": 0.09,
+    "accuracy_on_covered_cases": 0.5164835164835165,
+    "n_covered": 91,
+    "n_uncertain": 9,
+    "notes": "Triage uses fixed score bands and abstains on the uncertain middle band."
+  },
+  "outputs": {
+    "error_analysis": "eval_results\\full_pipeline_scaled_100\\diagnostics\\error_analysis_full.csv",
+    "confusion_matrix": "eval_results\\full_pipeline_scaled_100\\diagnostics\\confusion_matrix_full.md",
+    "threshold_calibration": "eval_results\\full_pipeline_scaled_100\\diagnostics\\threshold_calibration.csv",
+    "best_thresholds": "eval_results\\full_pipeline_scaled_100\\diagnostics\\best_thresholds.json",
+    "threshold_curve": "eval_results\\full_pipeline_scaled_100\\diagnostics\\threshold_curve.png",
+    "alternative_score_comparison": "eval_results\\full_pipeline_scaled_100\\diagnostics\\alternative_score_comparison.csv",
+    "triage_classification": "eval_results\\full_pipeline_scaled_100\\diagnostics\\triage_classification_full.csv"
+  }
+}

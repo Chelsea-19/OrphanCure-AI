@@ -1,0 +1,305 @@
+{
+  "benchmark": "unified",
+  "modes": {
+    "opentargets_only": {
+      "accuracy": 0.5,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "roc_auc": 0.5216,
+      "confusion_matrix": {
+        "tn": 0,
+        "fp": 25,
+        "fn": 0,
+        "tp": 25
+      },
+      "mode": "opentargets_only",
+      "status": "completed",
+      "threshold": 0.0,
+      "threshold_source": "dev_split_max_f1",
+      "n_evaluated_pairs": 50,
+      "n_skipped_pairs": 150,
+      "scoring_formula": "confidence_score = opentargets_support_score",
+      "notes": "Metrics compare transparent baseline scores against repoDB proxy labels only."
+    },
+    "graph_only": {
+      "accuracy": 0.5,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "roc_auc": 0.5432,
+      "confusion_matrix": {
+        "tn": 0,
+        "fp": 25,
+        "fn": 0,
+        "tp": 25
+      },
+      "mode": "graph_only",
+      "status": "completed",
+      "threshold": 0.0,
+      "threshold_source": "dev_split_max_f1",
+      "n_evaluated_pairs": 50,
+      "n_skipped_pairs": 150,
+      "scoring_formula": "confidence_score = graph_connectivity_score",
+      "notes": "Metrics compare transparent baseline scores against repoDB proxy labels only."
+    },
+    "ot_plus_graph": {
+      "accuracy": 0.5,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "roc_auc": 0.5664,
+      "confusion_matrix": {
+        "tn": 0,
+        "fp": 25,
+        "fn": 0,
+        "tp": 25
+      },
+      "mode": "ot_plus_graph",
+      "status": "completed",
+      "threshold": 0.0,
+      "threshold_source": "dev_split_max_f1",
+      "n_evaluated_pairs": 50,
+      "n_skipped_pairs": 150,
+      "scoring_formula": "confidence_score = 0.6 * minmax(opentargets_support_score) + 0.4 * minmax(graph_connectivity_score)",
+      "notes": "Metrics compare transparent baseline scores against repoDB proxy labels only."
+    },
+    "heuristic_combined": {
+      "accuracy": 0.5,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "roc_auc": 0.5712,
+      "confusion_matrix": {
+        "tn": 0,
+        "fp": 25,
+        "fn": 0,
+        "tp": 25
+      },
+      "mode": "heuristic_combined",
+      "status": "completed",
+      "threshold": 0.0,
+      "threshold_source": "dev_split_max_f1",
+      "n_evaluated_pairs": 50,
+      "n_skipped_pairs": 150,
+      "scoring_formula": "confidence_score = 0.45*OT support + 0.20*target overlap + 0.20*graph path + 0.15*graph connectivity - 0.10 if graph disease mapping is missing",
+      "notes": "Metrics compare transparent baseline scores against repoDB proxy labels only."
+    },
+    "pubmed_only": {
+      "accuracy": 0.55,
+      "precision": 0.5333333333333333,
+      "recall": 0.8,
+      "f1": 0.64,
+      "roc_auc": 0.56,
+      "confusion_matrix": {
+        "tn": 3,
+        "fp": 7,
+        "fn": 2,
+        "tp": 8
+      },
+      "mode": "pubmed_only",
+      "status": "completed",
+      "threshold": 0.35,
+      "threshold_source": "fixed_threshold_insufficient_dev",
+      "n_evaluated_pairs": 20,
+      "n_skipped_pairs": 180,
+      "scoring_formula": "confidence_score = pubmed_evidence_score",
+      "notes": "Metrics compare transparent baseline scores against repoDB proxy labels only."
+    },
+    "no_verifier": {
+      "accuracy": 0.375,
+      "precision": 0.42857142857142855,
+      "recall": 0.3333333333333333,
+      "f1": 0.375,
+      "roc_auc": 0.40476190476190477,
+      "confusion_matrix": {
+        "tn": 3,
+        "fp": 4,
+        "fn": 6,
+        "tp": 3
+      },
+      "benchmark": "full_pipeline",
+      "mode": "no_verifier",
+      "status": "completed",
+      "n_evaluated_pairs": 16,
+      "n_skipped_pairs": 4,
+      "mean_n_claims": 1.0,
+      "mean_n_verified_claims": 0.0,
+      "mean_n_unsupported_claims": 1.0,
+      "citation_verified_rate": 0.0,
+      "unsupported_claim_rate": 1.0,
+      "mean_n_pmids_used": 15.35,
+      "mean_n_opentargets_evidence_items": 0.6,
+      "mean_n_graph_paths_used": 0.6,
+      "mean_runtime_seconds": 17.274045099987415,
+      "success_rate": 0.8,
+      "partial_success_rate": 0.2,
+      "failure_rate": 0.0,
+      "status_counts": {
+        "completed": 16,
+        "partial_success": 4
+      },
+      "notes": "Full-pipeline metrics are report/evaluation metrics over generated outputs. They are not clinical validation."
+    },
+    "no_target_expansion": {
+      "accuracy": 0.4666666666666667,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "roc_auc": 0.4642857142857143,
+      "confusion_matrix": {
+        "tn": 3,
+        "fp": 4,
+        "fn": 4,
+        "tp": 4
+      },
+      "benchmark": "full_pipeline",
+      "mode": "no_target_expansion",
+      "status": "completed",
+      "n_evaluated_pairs": 15,
+      "n_skipped_pairs": 5,
+      "mean_n_claims": 1.15,
+      "mean_n_verified_claims": 0.9,
+      "mean_n_unsupported_claims": 0.15,
+      "citation_verified_rate": 0.7708333333333333,
+      "unsupported_claim_rate": 0.14583333333333331,
+      "mean_n_pmids_used": 15.3,
+      "mean_n_opentargets_evidence_items": 0.6,
+      "mean_n_graph_paths_used": 0.6,
+      "mean_runtime_seconds": 28.22638708499726,
+      "success_rate": 0.75,
+      "partial_success_rate": 0.25,
+      "failure_rate": 0.0,
+      "status_counts": {
+        "completed": 15,
+        "partial_success": 5
+      },
+      "notes": "Full-pipeline metrics are report/evaluation metrics over generated outputs. They are not clinical validation."
+    },
+    "no_graph_features": {
+      "accuracy": 0.5,
+      "precision": 0.5714285714285714,
+      "recall": 0.4444444444444444,
+      "f1": 0.5,
+      "roc_auc": 0.5,
+      "confusion_matrix": {
+        "tn": 4,
+        "fp": 3,
+        "fn": 5,
+        "tp": 4
+      },
+      "benchmark": "full_pipeline",
+      "mode": "no_graph_features",
+      "status": "completed",
+      "n_evaluated_pairs": 16,
+      "n_skipped_pairs": 4,
+      "mean_n_claims": 0.95,
+      "mean_n_verified_claims": 0.75,
+      "mean_n_unsupported_claims": 0.1,
+      "citation_verified_rate": 0.75,
+      "unsupported_claim_rate": 0.08333333333333333,
+      "mean_n_pmids_used": 15.35,
+      "mean_n_opentargets_evidence_items": 0.0,
+      "mean_n_graph_paths_used": 0.0,
+      "mean_runtime_seconds": 26.566079774999526,
+      "success_rate": 0.8,
+      "partial_success_rate": 0.2,
+      "failure_rate": 0.0,
+      "status_counts": {
+        "completed": 16,
+        "partial_success": 4
+      },
+      "notes": "Full-pipeline metrics are report/evaluation metrics over generated outputs. They are not clinical validation."
+    },
+    "full": {
+      "accuracy": 0.4375,
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "f1": 0.4,
+      "roc_auc": 0.46825396825396826,
+      "confusion_matrix": {
+        "tn": 4,
+        "fp": 3,
+        "fn": 6,
+        "tp": 3
+      },
+      "benchmark": "full_pipeline",
+      "mode": "full",
+      "status": "completed",
+      "n_evaluated_pairs": 16,
+      "n_skipped_pairs": 4,
+      "mean_n_claims": 0.95,
+      "mean_n_verified_claims": 0.75,
+      "mean_n_unsupported_claims": 0.1,
+      "citation_verified_rate": 0.78125,
+      "unsupported_claim_rate": 0.0625,
+      "mean_n_pmids_used": 15.3,
+      "mean_n_opentargets_evidence_items": 0.6,
+      "mean_n_graph_paths_used": 0.6,
+      "mean_runtime_seconds": 26.606305390014313,
+      "success_rate": 0.8,
+      "partial_success_rate": 0.2,
+      "failure_rate": 0.0,
+      "status_counts": {
+        "completed": 16,
+        "partial_success": 4
+      },
+      "notes": "Full-pipeline metrics are report/evaluation metrics over generated outputs. They are not clinical validation."
+    },
+    "combined_structured_literature": {
+      "accuracy": 0.55,
+      "precision": 0.5454545454545454,
+      "recall": 0.6,
+      "f1": 0.5714285714285713,
+      "roc_auc": 0.56,
+      "confusion_matrix": {
+        "tn": 5,
+        "fp": 5,
+        "fn": 4,
+        "tp": 6
+      },
+      "mode": "combined_structured_literature",
+      "status": "completed",
+      "threshold": 0.35,
+      "threshold_source": "fixed_threshold_insufficient_dev",
+      "n_evaluated_pairs": 20,
+      "n_skipped_pairs": 180,
+      "scoring_formula": "confidence_score = 0.5 * minmax(pubmed_evidence_score) + 0.3 * minmax(opentargets_support_score) + 0.2 * minmax(graph_connectivity_score)",
+      "notes": "Metrics compare transparent baseline scores against repoDB proxy labels only."
+    },
+    "pubmed_only_report": {
+      "mode": "pubmed_only_report",
+      "status": "TODO_NOT_RUN",
+      "n_evaluated_pairs": 0,
+      "n_skipped_pairs": 200,
+      "notes": "Full-pipeline ablation output is not available; no results are fabricated."
+    },
+    "structured_only_report": {
+      "mode": "structured_only_report",
+      "status": "TODO_NOT_RUN",
+      "n_evaluated_pairs": 0,
+      "n_skipped_pairs": 200,
+      "notes": "Full-pipeline ablation output is not available; no results are fabricated."
+    }
+  },
+  "coverage_metrics": {
+    "n_pairs": 200,
+    "opentargets_availability_rate": 0.25,
+    "graph_availability_rate": 0.25,
+    "pubmed_availability_rate": 0.1,
+    "both_evidence_layers_available_rate": 0.25,
+    "all_three_evidence_layers_available_rate": 0.1,
+    "ot_disease_resolution_rate": 0.82,
+    "graph_disease_mapping_rate": 0.16,
+    "target_overlap_rate": 0.18,
+    "graph_path_recovery_rate": 0.12,
+    "pubmed_direct_evidence_rate": 0.85,
+    "pubmed_clinical_evidence_rate": 0.85
+  },
+  "limitations": [
+    "repoDB is a proxy approved/failed label benchmark.",
+    "Open Targets support is target evidence support, not clinical truth.",
+    "PrimeKG graph connectivity is mechanism support, not proof of efficacy.",
+    "Rows with missing evidence are retained and counted as skipped for affected baselines."
+  ]
+}

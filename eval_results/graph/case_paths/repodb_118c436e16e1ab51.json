@@ -1,0 +1,26 @@
+[
+  {
+    "pair_id": "repodb_118c436e16e1ab51",
+    "path_id": "repodb_118c436e16e1ab51_path_1",
+    "path_length": 1,
+    "path_nodes": "[\"Paclitaxel\", \"testicular germ cell tumor\"]",
+    "path_relations": "[\"off-label use\"]",
+    "path_node_types": "[\"drug\", \"disease\"]",
+    "graph_source": "primekg",
+    "path_score": 1.0,
+    "status": "success",
+    "notes": "Graph path only; not proof of drug efficacy."
+  },
+  {
+    "pair_id": "repodb_118c436e16e1ab51",
+    "path_id": "repodb_118c436e16e1ab51_path_2",
+    "path_length": 2,
+    "path_nodes": "[\"Paclitaxel\", \"testicular teratoma\", \"testicular germ cell tumor\"]",
+    "path_relations": "[\"off-label use\", \"parent-child\"]",
+    "path_node_types": "[\"drug\", \"disease\", \"disease\"]",
+    "graph_source": "primekg",
+    "path_score": 0.75,
+    "status": "success",
+    "notes": "Graph path only; not proof of drug efficacy."
+  }
+]

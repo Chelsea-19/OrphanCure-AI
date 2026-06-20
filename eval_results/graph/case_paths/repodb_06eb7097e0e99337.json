@@ -1,0 +1,14 @@
+[
+  {
+    "pair_id": "repodb_06eb7097e0e99337",
+    "path_id": "repodb_06eb7097e0e99337_path_1",
+    "path_length": 1,
+    "path_nodes": "[\"Demeclocycline\", \"bronchitis\"]",
+    "path_relations": "[\"indication\"]",
+    "path_node_types": "[\"drug\", \"disease\"]",
+    "graph_source": "primekg",
+    "path_score": 1.0,
+    "status": "success",
+    "notes": "Graph path only; not proof of drug efficacy."
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "accuracy": null,
+  "precision": null,
+  "recall": null,
+  "f1": null,
+  "roc_auc": null,
+  "confusion_matrix": {
+    "tn": 0,
+    "fp": 0,
+    "fn": 0,
+    "tp": 0
+  },
+  "benchmark": "full_pipeline",
+  "mode": "full",
+  "status": "TODO_NOT_RUN",
+  "n_evaluated_pairs": 0,
+  "n_skipped_pairs": 100,
+  "mean_n_claims": null,
+  "mean_n_verified_claims": null,
+  "mean_n_unsupported_claims": null,
+  "citation_verified_rate": null,
+  "unsupported_claim_rate": null,
+  "mean_n_pmids_used": null,
+  "mean_n_opentargets_evidence_items": null,
+  "mean_n_graph_paths_used": null,
+  "mean_runtime_seconds": 0.010270744998706505,
+  "success_rate": 0.0,
+  "partial_success_rate": 0.0,
+  "failure_rate": 0.0,
+  "status_counts": {
+    "TODO_NOT_RUN": 100
+  },
+  "notes": "Full-pipeline run is TODO_NOT_RUN; no reports or label metrics were fabricated."
+}

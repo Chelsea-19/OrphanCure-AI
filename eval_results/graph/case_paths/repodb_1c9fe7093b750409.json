@@ -1,0 +1,14 @@
+[
+  {
+    "pair_id": "repodb_1c9fe7093b750409",
+    "path_id": "repodb_1c9fe7093b750409_path_1",
+    "path_length": 1,
+    "path_nodes": "[\"Voglibose\", \"Gaucher disease\"]",
+    "path_relations": "[\"indication\"]",
+    "path_node_types": "[\"drug\", \"disease\"]",
+    "graph_source": "primekg",
+    "path_score": 1.0,
+    "status": "success",
+    "notes": "Graph path only; not proof of drug efficacy."
+  }
+]

@@ -1,0 +1,2 @@
+pair_id,drug_name,disease_name,opentargets_drug_id,opentargets_disease_id,target_symbol,target_id,evidence_type,association_score,drug_target_support,disease_target_support,source,source_url_or_id,status,error_message,notes
+repodb_04ab2c145755011f,Azacitidine,Myelofibrosis due to another disorder,CHEMBL1489,,,,status,,False,False,Open Targets Platform GraphQL API,,partial_success,disease_resolution: no disease search hits,"Open Targets is external support evidence, not a clinical gold label."

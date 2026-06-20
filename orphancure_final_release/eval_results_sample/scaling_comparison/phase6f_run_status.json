@@ -1,0 +1,26 @@
+{
+  "pubmed_expansion": {
+    "status": "completed",
+    "contact_email_configured_for_run": true,
+    "pair_feature_rows": 50,
+    "evidence_rows": 2149,
+    "summed_pair_unique_pmids": 1058,
+    "evidence_available_pairs": 37,
+    "evidence_availability_rate": 0.74,
+    "notes": "PubMed evidence was expanded with cached responses where available and live NCBI calls for missing cache entries. Zero-PMID rows were retained."
+  },
+  "structured_evidence_expansion": {
+    "opentargets_status": "not_expanded",
+    "graph_status": "not_expanded",
+    "opentargets_rows": 50,
+    "graph_rows": 50,
+    "reason": "Existing Open Targets and PrimeKG coverage was sufficient for the 50-pair run."
+  },
+  "full_agent_scaled_runs": {
+    "full_status": "completed",
+    "no_verifier_status": "completed",
+    "no_target_expansion_status": "TODO_NOT_RUN",
+    "no_graph_features_status": "TODO_NOT_RUN",
+    "reason_optional_ablations_skipped": "Skipped real optional ablations after full and no_verifier because of runtime/cost; explicit TODO_NOT_RUN artifacts were written."
+  }
+}

@@ -1,0 +1,16 @@
+threshold_name,threshold,subset,n_rows,calibration_source,exploratory,accuracy,precision,recall,f1,roc_auc,confusion_matrix,balanced_accuracy
+default_threshold,0.5,dev,3,dev_split_exploratory_small_n,True,1.0,1.0,1.0,1.0,1.0,"{'tn': 2, 'fp': 0, 'fn': 0, 'tp': 1}",1.0
+default_threshold,0.5,test,13,dev_split_exploratory_small_n,True,0.38461538461538464,0.5,0.375,0.42857142857142855,0.35,"{'tn': 2, 'fp': 3, 'fn': 5, 'tp': 3}",0.3875
+default_threshold,0.5,all,16,dev_split_exploratory_small_n,True,0.5,0.5714285714285714,0.4444444444444444,0.5,0.46825396825396826,"{'tn': 4, 'fp': 3, 'fn': 5, 'tp': 4}",0.5079365079365079
+best_f1_threshold,0.55,dev,3,dev_split_exploratory_small_n,True,1.0,1.0,1.0,1.0,1.0,"{'tn': 2, 'fp': 0, 'fn': 0, 'tp': 1}",1.0
+best_f1_threshold,0.55,test,13,dev_split_exploratory_small_n,True,0.38461538461538464,0.5,0.375,0.42857142857142855,0.35,"{'tn': 2, 'fp': 3, 'fn': 5, 'tp': 3}",0.3875
+best_f1_threshold,0.55,all,16,dev_split_exploratory_small_n,True,0.5,0.5714285714285714,0.4444444444444444,0.5,0.46825396825396826,"{'tn': 4, 'fp': 3, 'fn': 5, 'tp': 4}",0.5079365079365079
+best_balanced_accuracy_threshold,0.55,dev,3,dev_split_exploratory_small_n,True,1.0,1.0,1.0,1.0,1.0,"{'tn': 2, 'fp': 0, 'fn': 0, 'tp': 1}",1.0
+best_balanced_accuracy_threshold,0.55,test,13,dev_split_exploratory_small_n,True,0.38461538461538464,0.5,0.375,0.42857142857142855,0.35,"{'tn': 2, 'fp': 3, 'fn': 5, 'tp': 3}",0.3875
+best_balanced_accuracy_threshold,0.55,all,16,dev_split_exploratory_small_n,True,0.5,0.5714285714285714,0.4444444444444444,0.5,0.46825396825396826,"{'tn': 4, 'fp': 3, 'fn': 5, 'tp': 4}",0.5079365079365079
+high_precision_threshold,0.55,dev,3,dev_split_exploratory_small_n,True,1.0,1.0,1.0,1.0,1.0,"{'tn': 2, 'fp': 0, 'fn': 0, 'tp': 1}",1.0
+high_precision_threshold,0.55,test,13,dev_split_exploratory_small_n,True,0.38461538461538464,0.5,0.375,0.42857142857142855,0.35,"{'tn': 2, 'fp': 3, 'fn': 5, 'tp': 3}",0.3875
+high_precision_threshold,0.55,all,16,dev_split_exploratory_small_n,True,0.5,0.5714285714285714,0.4444444444444444,0.5,0.46825396825396826,"{'tn': 4, 'fp': 3, 'fn': 5, 'tp': 4}",0.5079365079365079
+high_recall_threshold,0.55,dev,3,dev_split_exploratory_small_n,True,1.0,1.0,1.0,1.0,1.0,"{'tn': 2, 'fp': 0, 'fn': 0, 'tp': 1}",1.0
+high_recall_threshold,0.55,test,13,dev_split_exploratory_small_n,True,0.38461538461538464,0.5,0.375,0.42857142857142855,0.35,"{'tn': 2, 'fp': 3, 'fn': 5, 'tp': 3}",0.3875
+high_recall_threshold,0.55,all,16,dev_split_exploratory_small_n,True,0.5,0.5714285714285714,0.4444444444444444,0.5,0.46825396825396826,"{'tn': 4, 'fp': 3, 'fn': 5, 'tp': 4}",0.5079365079365079

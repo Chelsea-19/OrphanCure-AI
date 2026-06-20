@@ -1,0 +1,51 @@
+pair_id,drug_name,disease_name,mapped_drug_node_id,mapped_drug_node_name,mapped_disease_node_id,mapped_disease_node_name,drug_mapped,disease_mapped,mapping_confidence,mapping_method,status,error_message,notes
+repodb_019230a0310bf50c,Donepezil,Advanced cancer,DB00843,Donepezil,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_04246cb3a1c31ef7,Progesterone,Premature Birth,DB00396,Progesterone,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_04ab2c145755011f,Azacitidine,Myelofibrosis due to another disorder,DB00928,Azacitidine,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_04c33e977f1821df,Tacrolimus,recurrent adult diffuse mixed cell lymphoma,DB00864,Tacrolimus,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_0557bc43eff59f45,Theophylline,Asthma,DB00277,Theophylline,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_06eb7097e0e99337,Demeclocycline,Bronchitis,DB00618,Demeclocycline,3781_5607_18597,bronchitis,True,True,1.0,exact_name,success,,Graph mapping only; not clinical evidence.
+repodb_074e03e7fac6728e,Irinotecan,signet ring adenocarcinoma of the rectum,DB00762,Irinotecan,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_093492dbf5eab05f,Norfloxacin,"Pneumonia, Bacterial",DB01059,Norfloxacin,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_0a65b90b3ed1bdce,Paclitaxel,Carcinoma breast stage IV,DB01229,Paclitaxel,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_0b6a9edc9d19946a,Tamoxifen,Breast cancer recurrent,DB00675,Tamoxifen,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_0b9f9f1795a16598,Aminophylline,Malignant neoplasm of lung,DB01223,Aminophylline,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_0cb807513ccfb28d,Amikacin,Meningitis due to Klebsiella mobilis,DB00479,Amikacin,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_0d57eaf7fcf55450,Valproic Acid,Absence Epilepsy,DB00313,Valproic acid,11876_10826,absence epilepsy,True,True,1.0,exact_name,success,,Graph mapping only; not clinical evidence.
+repodb_0ee62470d8ffb2ae,Cisplatin,Esophageal neoplasm metastatic,DB00515,Cisplatin,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_0f3a4d1dcb0d3feb,Radium Ra 223 Dichloride,Malignant neoplasm of prostate,DB08913,Radium Ra 223 dichloride,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_0f5d00f3cf88c277,Prednisolone,Bacterial keratitis,DB00860,Prednisolone,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_1122a9139b179012,Chlorcyclizine,Allergic Conjunctivitis,DB08936,Chlorcyclizine,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_11528074473e978b,Gemcitabine,stage IV grade 1 follicular lymphoma,DB00441,Gemcitabine,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_118c436e16e1ab51,Paclitaxel,Testicular Germ Cell Tumor,DB01229,Paclitaxel,10274_10108,testicular germ cell tumor,True,True,1.0,exact_name,success,,Graph mapping only; not clinical evidence.
+repodb_130d9194853cab0c,Simeprevir,"Hepatitis C, Chronic",DB06290,Simeprevir,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_156412c5163a4a0d,Meropenem,Complicated appendicitis,DB00760,Meropenem,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_186a003502efb4a4,Anastrozole,Breast cancer stage II,DB01217,Anastrozole,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_1c9fe7093b750409,Voglibose,Gaucher Disease,DB04878,Voglibose,9266_9265_9267_18150,Gaucher disease,True,True,1.0,exact_name,success,,Graph mapping only; not clinical evidence.
+repodb_1ec6c8c3ab8e153d,Famotidine,Duodenal Ulcer,DB00927,Famotidine,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_1f4ca25eed5d6b3c,Everolimus,Malignant tumor of colon,DB01590,Everolimus,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_1f67590639394d16,Doxorubicin,stage IV adult diffuse large cell lymphoma,DB00997,Doxorubicin,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_21e452ae84c99058,Melphalan,Malignant neoplasm of ovary,DB01042,Melphalan,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_222be68f2c0e59e2,Carbachol,"Glaucoma, Open-Angle",,,,,False,False,0.0,unmapped,failed,no drug graph node match | no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_240d4dcb6f70913a,Brompheniramine,Influenza-like symptoms,DB00835,Brompheniramine,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_2436d79d27a90f1c,Aztreonam,Escherichia coli Infections,DB00355,Aztreonam,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_264af470063c63cf,Ergotamine,Cluster Headache,DB00696,Ergotamine,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_2755c3883022ca29,Irinotecan,Mucinous adenocarcinoma of colon,DB00762,Irinotecan,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_2a2ce1ecb2c2ca21,Cefadroxil,Tonsillitis,DB01140,Cefadroxil,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_2a6d55aafa61aa89,Sunitinib,Oropharyngeal squamous cell carcinoma recurrent,DB01268,Sunitinib,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_2b3e69b88eb6e850,Salicylic acid,Rheumatoid Arthritis,DB00936,Salicylic acid,8383,rheumatoid arthritis,True,True,1.0,exact_name,success,,Graph mapping only; not clinical evidence.
+repodb_2bbe735fb6b2766c,Ofloxacin,Infection in solid organ transplant recipients,DB01165,Ofloxacin,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_2d0e801613852c62,Cyclosporine,Myeloid Leukemia,DB00091,Cyclosporine,18874_4643,myeloid leukemia,True,True,1.0,exact_name,success,,Graph mapping only; not clinical evidence.
+repodb_2d37699e9d0940af,Armodafinil,Malignant Glioma,DB06413,Armodafinil,100342,malignant glioma,True,True,1.0,exact_name,success,,Graph mapping only; not clinical evidence.
+repodb_2df019ef279bf716,Finasteride,Benign Prostatic Hyperplasia,DB01216,Finasteride,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_31348d54f6f4cd74,Aminolevulinic acid,Cervical Intraepithelial Neoplasia,DB00855,Aminolevulinic acid,22394_42491,cervical intraepithelial neoplasia,True,True,1.0,exact_name,success,,Graph mapping only; not clinical evidence.
+repodb_3492a2c7416f136c,Penciclovir,Recurrent genital herpes simplex,DB00299,Penciclovir,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_34cf4e0d850b0cdf,Terbutaline,Asthma attack,DB00871,Terbutaline,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_35faa8a42490d0eb,Neomycin,Hepatic Coma,DB00994,Neomycin,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_3662c26db0147ddc,Paclitaxel,Pancreatic adenocarcinoma metastatic,DB01229,Paclitaxel,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_386a9fa70fbff208,Bortezomib,Mycosis fungoides/Sezary syndrome stage III,DB00188,Bortezomib,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_3929968928f5f083,Amphotericin B,Urinary tract infection,DB00681,Amphotericin B,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_3ab2a1d014ffd529,Cisplatin,Non-Small Cell Lung Carcinoma,DB00515,Cisplatin,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_3ac2b491643eebc5,Ulobetasol,Scalp psoriasis,DB00596,Ulobetasol,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_3b065d5df2b47d0b,Gemcitabine,Bladder cancer stage III,DB00441,Gemcitabine,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.
+repodb_3ed013b16d2870d7,Rituximab,Metastatic melanoma,DB00073,Rituximab,,,True,False,1.0,exact_name,partial_success,no disease graph node match,Graph mapping only; not clinical evidence.

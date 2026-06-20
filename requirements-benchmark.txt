@@ -1,0 +1,6 @@
+-r requirements.txt
+
+# Benchmark and evaluation utilities
+# Phase 1 repoDB evaluation currently uses pandas and requests from core.
+# Add optional benchmark-only dependencies here as future phases require them.
+

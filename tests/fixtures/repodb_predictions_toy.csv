@@ -1,0 +1,6 @@
+drug_name,drug_id,disease_name,disease_id,score
+Drug Alpha,DB001,Disease One,C0000001,0.91
+Drug Beta,DB002,Disease One,C0000001,0.81
+Drug Gamma,DB003,Disease Two,C0000002,0.22
+Drug Missing,DB999,Disease One,C0000001,0.70
+

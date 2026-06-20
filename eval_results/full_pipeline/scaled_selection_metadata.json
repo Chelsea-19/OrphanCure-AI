@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "sizes": [
+    50,
+    100
+  ],
+  "selection_rules": [
+    "balanced expected_label where possible",
+    "roughly 20 percent dev rows for calibration",
+    "ranked by PubMed, Open Targets, graph availability and support scores",
+    "not conditioned on previous full-agent correctness"
+  ]
+}

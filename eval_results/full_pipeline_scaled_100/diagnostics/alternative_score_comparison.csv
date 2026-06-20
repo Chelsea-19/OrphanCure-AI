@@ -1,0 +1,7 @@
+score_name,threshold,threshold_source,n_evaluated_pairs,accuracy,precision,recall,f1,roc_auc,balanced_accuracy,tn,fp,fn,tp
+full_confidence_score_original,0.5,dev_split_exploratory_small_n,0,,,,,,0.0,0,0,0,0
+evidence_strength_score,0.0,dev_split_best_f1,100,0.5,0.5,1.0,0.6666666666666666,0.5144,0.5,0,50,0,50
+clinical_support_score,0.0,dev_split_best_f1,100,0.5,0.5,1.0,0.6666666666666666,0.5272,0.5,0,50,0,50
+safety_penalized_score,0.0,dev_split_best_f1,100,0.5,0.5,1.0,0.6666666666666666,0.5444,0.5,0,50,0,50
+pubmed_only,0.0,dev_split_best_f1,100,0.5,0.5,1.0,0.6666666666666666,0.4944,0.5,0,50,0,50
+combined_structured_literature,0.0,dev_split_best_f1,100,0.5,0.5,1.0,0.6666666666666666,0.5128,0.5,0,50,0,50

@@ -1,0 +1,38 @@
+[
+  {
+    "pair_id": "repodb_2b3e69b88eb6e850",
+    "path_id": "repodb_2b3e69b88eb6e850_path_1",
+    "path_length": 1,
+    "path_nodes": "[\"Salicylic acid\", \"rheumatoid arthritis\"]",
+    "path_relations": "[\"indication\"]",
+    "path_node_types": "[\"drug\", \"disease\"]",
+    "graph_source": "primekg",
+    "path_score": 1.0,
+    "status": "success",
+    "notes": "Graph path only; not proof of drug efficacy."
+  },
+  {
+    "pair_id": "repodb_2b3e69b88eb6e850",
+    "path_id": "repodb_2b3e69b88eb6e850_path_2",
+    "path_length": 2,
+    "path_nodes": "[\"Salicylic acid\", \"PTGS1\", \"rheumatoid arthritis\"]",
+    "path_relations": "[\"target\", \"associated with\"]",
+    "path_node_types": "[\"drug\", \"gene/protein\", \"disease\"]",
+    "graph_source": "primekg",
+    "path_score": 0.75,
+    "status": "success",
+    "notes": "Graph path only; not proof of drug efficacy."
+  },
+  {
+    "pair_id": "repodb_2b3e69b88eb6e850",
+    "path_id": "repodb_2b3e69b88eb6e850_path_3",
+    "path_length": 2,
+    "path_nodes": "[\"Salicylic acid\", \"PTGS2\", \"rheumatoid arthritis\"]",
+    "path_relations": "[\"target\", \"associated with\"]",
+    "path_node_types": "[\"drug\", \"gene/protein\", \"disease\"]",
+    "graph_source": "primekg",
+    "path_score": 0.75,
+    "status": "success",
+    "notes": "Graph path only; not proof of drug efficacy."
+  }
+]

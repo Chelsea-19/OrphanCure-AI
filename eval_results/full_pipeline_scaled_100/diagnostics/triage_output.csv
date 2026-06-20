@@ -1,0 +1,101 @@
+pair_id,drug_name,disease_name,expected_label,clinical_support_score,safety_penalized_score,triage_label
+repodb_04246cb3a1c31ef7,Progesterone,Premature Birth,negative_or_failed,0.6513493471895856,0.41992077576101416,uncertain_mixed
+repodb_0557bc43eff59f45,Theophylline,Asthma,positive,0.6841791044776119,0.45044776119402974,likely_supported
+repodb_0ee62470d8ffb2ae,Cisplatin,Esophageal neoplasm metastatic,negative_or_failed,0.4993220338983051,0.25830508474576275,uncertain_mixed
+repodb_130d9194853cab0c,Simeprevir,"Hepatitis C, Chronic",positive,0.4938461538461539,0.24461538461538465,uncertain_mixed
+repodb_0d57eaf7fcf55450,Valproic Acid,Absence Epilepsy,positive,0.632,0.38,uncertain_mixed
+repodb_0a65b90b3ed1bdce,Paclitaxel,Carcinoma breast stage IV,positive,0.48545454545454547,0.22363636363636366,uncertain_mixed
+repodb_04ab2c145755011f,Azacitidine,Myelofibrosis due to another disorder,negative_or_failed,0.44789818744773224,0.18397560838592605,uncertain_mixed
+repodb_04c33e977f1821df,Tacrolimus,recurrent adult diffuse mixed cell lymphoma,negative_or_failed,0.2984960022812227,0.0,insufficient_or_negative
+repodb_0f5d00f3cf88c277,Prednisolone,Bacterial keratitis,positive,0.398467345116208,0.26902752040299305,uncertain_mixed
+repodb_118c436e16e1ab51,Paclitaxel,Testicular Germ Cell Tumor,negative_or_failed,0.52055746069142,0.28317270549846774,uncertain_mixed
+repodb_06eb7097e0e99337,Demeclocycline,Bronchitis,positive,0.43101024590003534,0.2908561354725347,uncertain_mixed
+repodb_0cb807513ccfb28d,Amikacin,Meningitis due to Klebsiella mobilis,positive,0.15071992754648236,0.06473928278103082,insufficient_or_negative
+repodb_019230a0310bf50c,Donepezil,Advanced cancer,negative_or_failed,0.18570057231193388,0.03074778710331845,insufficient_or_negative
+repodb_0b6a9edc9d19946a,Tamoxifen,Breast cancer recurrent,negative_or_failed,0.1823080801136741,0.08132743534822257,insufficient_or_negative
+repodb_093492dbf5eab05f,Norfloxacin,"Pneumonia, Bacterial",positive,0.1436443624395628,0.1436443624395628,insufficient_or_negative
+repodb_074e03e7fac6728e,Irinotecan,signet ring adenocarcinoma of the rectum,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_11528074473e978b,Gemcitabine,stage IV grade 1 follicular lymphoma,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_264af470063c63cf,Ergotamine,Cluster Headache,positive,0.035184823046795946,0.035184823046795946,insufficient_or_negative
+repodb_1ec6c8c3ab8e153d,Famotidine,Duodenal Ulcer,positive,0.15143029542514366,0.15143029542514366,insufficient_or_negative
+repodb_3ac2b491643eebc5,Ulobetasol,Scalp psoriasis,positive,0.15679958331543373,0.15679958331543373,insufficient_or_negative
+repodb_34cf4e0d850b0cdf,Terbutaline,Asthma attack,positive,0.053197830921254505,0.053197830921254505,insufficient_or_negative
+repodb_2df019ef279bf716,Finasteride,Benign Prostatic Hyperplasia,negative_or_failed,0.1597887973228164,0.1597887973228164,insufficient_or_negative
+repodb_186a003502efb4a4,Anastrozole,Breast cancer stage II,negative_or_failed,0.05856661817465864,0.05856661817465864,insufficient_or_negative
+repodb_3ed013b16d2870d7,Rituximab,Metastatic melanoma,negative_or_failed,0.05221805252266937,0.05221805252266937,insufficient_or_negative
+repodb_2b3e69b88eb6e850,Salicylic acid,Rheumatoid Arthritis,positive,0.14,0.14,insufficient_or_negative
+repodb_2d37699e9d0940af,Armodafinil,Malignant Glioma,negative_or_failed,0.12600000000000003,0.12600000000000003,insufficient_or_negative
+repodb_35faa8a42490d0eb,Neomycin,Hepatic Coma,positive,0.0,0.0,insufficient_or_negative
+repodb_2a2ce1ecb2c2ca21,Cefadroxil,Tonsillitis,positive,0.0,0.0,insufficient_or_negative
+repodb_156412c5163a4a0d,Meropenem,Complicated appendicitis,positive,0.0,0.0,insufficient_or_negative
+repodb_501b325d181b6967,Brompheniramine,Symptomatic dermographism,positive,0.0,0.0,insufficient_or_negative
+repodb_796385530cf82b80,Triamcinolone,Erythema Multiforme,positive,0.0,0.0,insufficient_or_negative
+repodb_6661b82c49403705,Tretinoin,Acne Vulgaris,positive,0.0,0.0,insufficient_or_negative
+repodb_d8c40b1e86924ab7,Fluorouracil,Superficial basal cell carcinoma,positive,0.0,0.0,insufficient_or_negative
+repodb_0f3a4d1dcb0d3feb,Radium Ra 223 Dichloride,Malignant neoplasm of prostate,positive,0.0,0.0,insufficient_or_negative
+repodb_1122a9139b179012,Chlorcyclizine,Allergic Conjunctivitis,positive,0.0,0.0,insufficient_or_negative
+repodb_1c9fe7093b750409,Voglibose,Gaucher Disease,positive,0.14,0.14,insufficient_or_negative
+repodb_3492a2c7416f136c,Penciclovir,Recurrent genital herpes simplex,positive,0.0,0.0,insufficient_or_negative
+repodb_2436d79d27a90f1c,Aztreonam,Escherichia coli Infections,positive,0.0,0.0,insufficient_or_negative
+repodb_21e452ae84c99058,Melphalan,Malignant neoplasm of ovary,positive,0.0,0.0,insufficient_or_negative
+repodb_3929968928f5f083,Amphotericin B,Urinary tract infection,positive,0.0,0.0,insufficient_or_negative
+repodb_222be68f2c0e59e2,Carbachol,"Glaucoma, Open-Angle",positive,0.0,0.0,insufficient_or_negative
+repodb_240d4dcb6f70913a,Brompheniramine,Influenza-like symptoms,positive,0.0,0.0,insufficient_or_negative
+repodb_9aaec2b25611002c,Dexibuprofen,Headache Disorders,positive,0.0,0.0,insufficient_or_negative
+repodb_61e3269e25aaf57a,Econazole,Tinea cruris,positive,0.0,0.0,insufficient_or_negative
+repodb_f6a69939a4bd7fff,Dicoumarol,Thromboembolism,positive,0.0,0.0,insufficient_or_negative
+repodb_ffcda1e7ed3ed873,Sulindac,Rheumatoid Arthritis,positive,0.0,0.0,insufficient_or_negative
+repodb_f2b441907911d65b,Paroxetine,Generalized Anxiety Disorder,positive,0.0,0.0,insufficient_or_negative
+repodb_e90a5a7781ce8247,Levofloxacin,Staphylococcus aureus infection,positive,0.0,0.0,insufficient_or_negative
+repodb_95cb9474b5eb89ee,Doxepin,Severe major depression with psychotic features,positive,0.0,0.0,insufficient_or_negative
+repodb_c58f90d1279788ca,Carvedilol,Chronic heart failure,positive,0.0,0.0,insufficient_or_negative
+repodb_ee6d9eb0e2be784e,Atorvastatin,Hypertensive disease,positive,0.0,0.0,insufficient_or_negative
+repodb_a7f96c8d6ec8725b,Testosterone Propionate,Delayed Puberty,positive,0.0,0.0,insufficient_or_negative
+repodb_570b3f30db022c20,Lornoxicam,Pain,positive,0.0,0.0,insufficient_or_negative
+repodb_ad9d3080b5b125d2,Beclomethasone dipropionate,Allergic rhinitis (disorder),positive,0.0,0.0,insufficient_or_negative
+repodb_cfb4e9bbf2a46f6b,Doxepin,Sleeplessness,positive,0.0,0.0,insufficient_or_negative
+repodb_880a34e4a79300ac,Dextromethorphan,Coughing,positive,0.0,0.0,insufficient_or_negative
+repodb_84f6a08cae6ad26e,Dexpanthenol,Dermatologic disorders,positive,0.0,0.0,insufficient_or_negative
+repodb_9ee53098a53b7664,Oxytetracycline,Rocky Mountain Spotted Fever,positive,0.0,0.0,insufficient_or_negative
+repodb_f4ce92507dec471d,Dorzolamide,"Glaucoma, Open-Angle",positive,0.0,0.0,insufficient_or_negative
+repodb_82ac65d9eff679b0,Fenoldopam,Hypertensive urgency,positive,0.0,0.0,insufficient_or_negative
+repodb_5f5e48d0f7379318,Clindamycin,Staphylococcal Pneumonia,positive,0.0,0.0,insufficient_or_negative
+repodb_c007885e45ff4081,Cefprozil,Acute Moraxella catarrhalis bronchitis,positive,0.0,0.0,insufficient_or_negative
+repodb_6b5ca4a47dd543ea,Norepinephrine,Hypotension,positive,0.0,0.0,insufficient_or_negative
+repodb_3ab2a1d014ffd529,Cisplatin,Non-Small Cell Lung Carcinoma,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_1f67590639394d16,Doxorubicin,stage IV adult diffuse large cell lymphoma,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_6884c00bc2eaf8b7,Pravastatin,adult acute myeloblastic leukemia with maturation (M2),negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_4e3a88dea61cb998,Levoleucovorin,Stage IV Pancreatic Cancer,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_76fa1ea3c3ab907d,Dacarbazine,Adenocarcinoma,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_b492ce9382abd005,Sorafenib,stage III papillary thyroid cancer,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_0b9f9f1795a16598,Aminophylline,Malignant neoplasm of lung,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_3b065d5df2b47d0b,Gemcitabine,Bladder cancer stage III,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_3662c26db0147ddc,Paclitaxel,Pancreatic adenocarcinoma metastatic,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_386a9fa70fbff208,Bortezomib,Mycosis fungoides/Sezary syndrome stage III,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_2755c3883022ca29,Irinotecan,Mucinous adenocarcinoma of colon,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_2d0e801613852c62,Cyclosporine,Myeloid Leukemia,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_2a6d55aafa61aa89,Sunitinib,Oropharyngeal squamous cell carcinoma recurrent,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_31348d54f6f4cd74,Aminolevulinic acid,Cervical Intraepithelial Neoplasia,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_2bbe735fb6b2766c,Ofloxacin,Infection in solid organ transplant recipients,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_1f4ca25eed5d6b3c,Everolimus,Malignant tumor of colon,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_656f19978d5e8883,Acetylsalicylic acid,Low density lipoprotein increased,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_fc6cab9d35a9ace1,Idarubicin,adult acute myeloblastic leukemia with maturation (M2),negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_9ba28aa733f15026,Gemcitabine,Marginal zone lymphoma recurrent,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_9db05c4413619dcf,Oxaliplatin,Stage IIC Rectal Cancer,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_4b4d9facf2510362,Dexamethasone,Acute fungal otitis externa,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_c60fe1f73e8ba2f9,Sunitinib,cognitive/functional effects,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_afc5e1b286c41d8f,Bortezomib,Mycosis fungoides/Sezary syndrome stage IV,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_de0ed53d02a3ca36,Aripiprazole,Schizoaffective Disorder,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_954be9dd50df35b7,Sunitinib,Pancreatic carcinoma,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_4749a32029b1d907,Azacitidine,adult acute eosinophilic leukemia,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_4e846c792274ff9f,Hydroxyurea,Pulmonary Hypertension,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_6be992665272425d,Verapamil,Classical phenylketonuria,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_99cbfc97d83fb7f7,Fludarabine,chronic myelogenous leukemia in relapse,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_cd97e8c429559b29,Paclitaxel,Non-small cell lung cancer stage IIIB,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_9693fc0d7f97136f,Methotrexate,Malignant neoplasm of ovary,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_b86738ff60952e56,Doxorubicin,colon cancer liver metastasis,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_d3221e1c851baead,Lenalidomide,Chronic lymphocytic leukaemia stage 4,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_a0a83ee0b86e89f7,Niacin,Psoriasis,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_947663f51d4e1d54,Tacrolimus,chronic myelogenous leukemia in relapse,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_a306dcb631ec4f35,Abatacept,Alopecia Areata,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_580e1ac7e68d5d79,Pravastatin,adult acute monocytic leukemia (M5b),negative_or_failed,0.0,0.0,insufficient_or_negative

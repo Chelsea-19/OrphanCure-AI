@@ -1,0 +1,42 @@
+{
+  "accuracy": 0.5882352941176471,
+  "precision": 0.5333333333333333,
+  "recall": 1.0,
+  "f1": 0.6956521739130436,
+  "roc_auc": 0.6527777777777778,
+  "confusion_matrix": {
+    "tn": 2,
+    "fp": 7,
+    "fn": 0,
+    "tp": 8
+  },
+  "benchmark": "pubmed",
+  "mode": "pubmed_only",
+  "status": "completed",
+  "threshold": 0.35,
+  "threshold_source": "fixed_threshold_insufficient_dev",
+  "n_evaluated_pairs": 17,
+  "n_skipped_pairs": 3,
+  "evidence_availability_rate": 0.85,
+  "mean_n_unique_pmids_by_expected_label": {
+    "negative_or_failed": 20.6,
+    "positive": 25.5
+  },
+  "mean_pubmed_evidence_score_by_expected_label": {
+    "negative_or_failed": 0.6491371726165831,
+    "positive": 0.6632584194797865
+  },
+  "by_expected_label": {
+    "negative_or_failed": {
+      "n_pairs": 10,
+      "mean_n_unique_pmids": 20.6,
+      "mean_pubmed_evidence_score": 0.6491371726165831
+    },
+    "positive": {
+      "n_pairs": 10,
+      "mean_n_unique_pmids": 25.5,
+      "mean_pubmed_evidence_score": 0.6632584194797865
+    }
+  },
+  "notes": "PubMed-only is a transparent co-mention retrieval baseline. It does not classify evidence polarity and is not clinical validation."
+}

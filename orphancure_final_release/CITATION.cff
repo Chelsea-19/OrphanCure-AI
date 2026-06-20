@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use OrphanCure, please cite this research demo release."
+title: "OrphanCure: Benchmark-Driven Biomedical AI Agent Evaluation for Drug-Disease Evidence Assessment"
+version: "0.1.0-research-demo"
+date-released: "2026-06-04"
+authors:
+  - name: "TODO_AUTHOR_NAME"
+repository-code: "https://github.com/YOUR_USERNAME/orphancure"
+license: "LicenseRef-Research-Demo"
+keywords:
+  - biomedical AI
+  - drug repurposing
+  - evidence assessment
+  - repoDB
+  - PubMed
+  - Open Targets
+  - PrimeKG

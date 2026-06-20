@@ -1,0 +1,191 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{hyperref}
+\geometry{margin=1in}
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue}
+
+\title{OrphanCure: Benchmark-Driven Evaluation of an Evidence-Grounded Biomedical AI Agent for Drug-Disease Assessment}
+\author{TODO\_AUTHOR\_NAME}
+\date{Manuscript draft, v0.1.0-research-demo}
+
+\newcommand{\todoct}{\textbf{TODO\_CITATION}}
+\newcommand{\figmaybe}[2]{%
+\begin{figure}[htbp]
+\centering
+\IfFileExists{#1}{\includegraphics[width=0.86\linewidth]{#1}}{\fbox{\parbox{0.82\linewidth}{\centering TODO figure placeholder: #2}}}
+\caption{#2}
+\end{figure}
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Biomedical AI agents may help organize evidence for drug-disease assessment, but their outputs require careful benchmarking and verification. We present OrphanCure, a research framework that evaluates an evidence-grounded biomedical AI agent using repoDB proxy labels, PubMed literature retrieval, Open Targets target evidence, and PrimeKG graph mechanism features. The framework includes full-agent evaluation, ablations, claim verification, safety-penalized scoring, triage analysis, and manually reviewable case-study templates. In a 50-pair selected cohort, the full pipeline completed 42 cases with 8 partial successes and no failures. Original full-agent F1 was 0.5333, while an exploratory safety-penalized score achieved F1 0.7018 and ROC-AUC 0.6464. The verifier reduced unsupported claim rate from 1.0 in no-verifier mode to 0.1090 in full mode. These results support OrphanCure as an evaluation and evidence-organization framework, not as clinical validation or medical advice.
+\end{abstract}
+
+\section{Introduction}
+Rare disease drug repurposing is an evidence-fragmented research problem. Literature, target databases, biomedical graphs, and historical trial outcomes may each provide partial signals. Large language model agents can synthesize such evidence, but unsupported biomedical claims create safety and reliability risks. \todoct{}
+
+OrphanCure studies this problem as benchmark-driven agent evaluation. The system uses repoDB proxy approved/failed labels for measurement, retrieves biomedical evidence, generates structured assessments, verifies claims against citations, and analyzes prediction behavior through ablations and diagnostic scores.
+
+The contributions are:
+\begin{itemize}
+  \item A benchmark-driven biomedical AI agent evaluation framework.
+  \item Integration of repoDB, PubMed, Open Targets, and PrimeKG.
+  \item A full-agent evaluation and ablation suite.
+  \item A verifier-centered faithfulness evaluation.
+  \item A safety-penalized evidence score and triage analysis.
+  \item Manually reviewable case-study templates.
+\end{itemize}
+
+\section{Related Work}
+Drug repurposing resources and drug-indication databases provide structured starting points for computational evidence assessment. \todoct{} Biomedical knowledge graphs such as PrimeKG encode heterogeneous relations among drugs, genes, diseases, phenotypes, and pathways. \todoct{} Open Targets provides target-disease and drug-target evidence for translational research. \todoct{} PubMed literature mining supports evidence retrieval, but co-mention alone is insufficient for causal or therapeutic inference. \todoct{}
+
+Biomedical LLM agents and retrieval-augmented generation systems can summarize evidence, but faithfulness and hallucination mitigation remain open challenges. Claim verification, citation checking, and abstention are therefore important components for safety-sensitive research workflows. \todoct{}
+
+\section{Methods}
+\subsection{Benchmark Construction}
+The benchmark contains 200 balanced repoDB pairs, with 100 positive and 100 negative\_or\_failed labels. A dev/test split is available. Labels are proxy labels: an approved indication is not universal clinical truth, and a failed or discontinued indication is not necessarily a mechanistic negative.
+
+\subsection{Evidence Retrieval}
+PubMed retrieval produced 50 pair-feature rows, 2,149 PubMed evidence rows in the source repository, 1,058 global unique PMIDs, and evidence availability for 37 of 50 pairs. PubMed features were used as literature signals and not as direct efficacy evidence.
+
+\subsection{Knowledge Graph Features}
+Open Targets enrichment produced 50 rows, with drug resolution rate 1.0, disease resolution rate 0.82, and target overlap rate 0.18 in the earlier 50-pair run. PrimeKG normalization produced 4,130,337 edges and 84,289 nodes in the source repository, with 50 compact graph feature rows. Earlier graph mapping rates were 0.98 for drugs and 0.16 for diseases, and path recovery rate was 0.12.
+
+\subsection{Full-Agent Pipeline}
+The full pipeline performs entity resolution, mechanism discovery, PubMed retrieval, LLM synthesis, claim verification, quality gating, and report generation. The release app does not run live APIs and displays bundled summaries only.
+
+\subsection{Claim Verification}
+The verifier checks generated biomedical claims against cited evidence. Unsupported claim rate and citation verified rate are tracked as safety and faithfulness measures.
+
+\subsection{Safety-Penalized Scoring}
+The safety-penalized score is an exploratory score that combines evidence support with penalties for unsupported claims and incomplete outputs. It is calibrated on the dev split and evaluated cautiously because sample sizes are small.
+
+\subsection{Triage Classification}
+Triage classification uses score bands and abstains on uncertain middle-band cases. This is intended to be more appropriate than forced binary prediction when biomedical evidence is incomplete.
+
+\subsection{Evaluation Metrics}
+Metrics include accuracy, precision, recall, F1, ROC-AUC, unsupported claim rate, citation verified rate, coverage, abstention, and accuracy on covered triage cases.
+
+\section{Experiments}
+We summarize a 20-pair diagnostic run and a 50-pair scaled run. The experiments include full mode, no-verifier ablation, no-target-expansion ablation, no-graph-features ablation, safety-penalized score comparison, triage classification, and selected case-study review. No expensive API reruns were performed during release packaging.
+
+\section{Results}
+\begin{table}[htbp]
+\centering
+\caption{Evidence coverage summary.}
+\begin{tabular}{lrr}
+\toprule
+Metric & Count & Rate \\
+\midrule
+PubMed evidence-available pairs & 37/50 & 0.74 \\
+Open Targets rows & 50 & -- \\
+Open Targets drug resolution & 50/50 & 1.00 \\
+Open Targets disease resolution & 41/50 & 0.82 \\
+Open Targets target overlap & 9/50 & 0.18 \\
+PrimeKG graph feature rows & 50 & -- \\
+PrimeKG drug mapping & 49/50 & 0.98 \\
+PrimeKG disease mapping & 8/50 & 0.16 \\
+PrimeKG path recovery & 6/50 & 0.12 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Full-agent performance.}
+\begin{tabular}{lrr}
+\toprule
+Metric & 20-pair & 50-pair \\
+\midrule
+Selected & 20 & 50 \\
+Completed & 16 & 42 \\
+Partial success & 4 & 8 \\
+Failed & 0 & 0 \\
+Original F1 & 0.4000 & 0.5333 \\
+Original ROC-AUC & 0.4683 & 0.5174 \\
+Unsupported claim rate & 0.0625 & 0.1090 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{50-pair safety-penalized score comparison.}
+\begin{tabular}{lrrrrr}
+\toprule
+Score & Accuracy & Precision & Recall & F1 & ROC-AUC \\
+\midrule
+Original full confidence & 0.5000 & 0.5652 & 0.5417 & 0.5532 & 0.5174 \\
+safety\_penalized\_score & 0.6600 & 0.6250 & 0.8000 & 0.7018 & 0.6464 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Verifier ablation.}
+\begin{tabular}{lrr}
+\toprule
+Run & Full unsupported claim rate & no\_verifier unsupported claim rate \\
+\midrule
+20-pair & 0.0625 & 1.0000 \\
+50-pair & 0.1090 & 1.0000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Triage and error analysis.}
+\begin{tabular}{lrr}
+\toprule
+Metric & 20-pair & 50-pair \\
+\midrule
+Coverage & 0.65 & 0.50 \\
+Abstention & 0.35 & 0.50 \\
+Accuracy on covered & 0.6154 & 0.6400 \\
+True positives & 3 & 12 \\
+True negatives & 4 & 9 \\
+False positives & 3 & 9 \\
+False negatives & 6 & 12 \\
+Partial/skipped & 4 & 8 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\figmaybe{figures/scaling_f1_comparison.png}{Scaling F1 comparison.}
+\figmaybe{figures/scaling_verifier_effect.png}{Verifier effect across runs.}
+
+\section{Case Studies}
+Five cases were selected for manual review: Theophylline--Asthma as a correct positive, Paclitaxel--Testicular Germ Cell Tumor as a correct negative\_or\_failed, Progesterone--Premature Birth as a verifier-effect case, Cisplatin--Esophageal neoplasm metastatic as an incorrect-but-informative case, and Azacitidine--Myelofibrosis due to another disorder as a partial-success error-analysis case. All remain \texttt{TODO\_MANUAL\_REVIEW}.
+
+\section{Discussion}
+Raw full-agent confidence was poorly calibrated. Safety-penalized scoring improved exploratory benchmark performance by incorporating support and faithfulness signals. The verifier substantially reduced unsupported claims, suggesting that claim verification is a central part of responsible biomedical report generation. OrphanCure's value is evidence-grounded synthesis and evaluation, not clinical prediction. Triage with abstention may be more suitable than forced binary prediction in uncertain biomedical settings.
+
+\section{Limitations}
+This study uses selected 20- and 50-pair cohorts. repoDB labels are proxy labels. PubMed co-mention is not evidence of efficacy. Open Targets and graph coverage are incomplete. No clinical validation was performed, and no completed expert biomedical review is claimed. The system depends on LLM behavior and external evidence availability. Generated reports require manual expert review.
+
+\section{Conclusion}
+OrphanCure provides a benchmark-driven framework for evaluating evidence-grounded biomedical AI agents. The current results show modest original prediction performance, stronger exploratory safety-penalized scoring, and a robust verifier effect on unsupported claims. The framework should be used for research support and evaluation, not clinical decision-making.
+
+\section{Ethics and Safety Statement}
+OrphanCure is for research and educational use only. It is not medical advice, not a treatment recommendation system, and not for clinical decision-making or patient care. All generated biomedical case studies require expert manual review.
+
+\section{Data and Code Availability}
+The code has been prepared for GitHub release. Raw external data, full caches, full PrimeKG graph files, and API keys are not bundled. Scripts are provided for reproducibility, but users must follow the licenses and usage policies of repoDB, PubMed/NCBI, Open Targets, and PrimeKG.
+
+\section{Supplementary Material}
+Supplementary details are provided in \texttt{supplementary.tex}.
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

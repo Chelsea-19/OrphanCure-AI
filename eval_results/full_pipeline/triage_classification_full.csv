@@ -1,0 +1,21 @@
+pair_id,drug_name,disease_name,expected_label,clinical_support_score,safety_penalized_score,triage_label
+repodb_04246cb3a1c31ef7,Progesterone,Premature Birth,negative_or_failed,0.7913493471895856,0.5599207757610143,likely_supported
+repodb_0557bc43eff59f45,Theophylline,Asthma,positive,0.8241791044776119,0.5904477611940299,likely_supported
+repodb_0ee62470d8ffb2ae,Cisplatin,Esophageal neoplasm metastatic,negative_or_failed,0.464322033898305,0.11330508474576266,uncertain_mixed
+repodb_130d9194853cab0c,Simeprevir,"Hepatitis C, Chronic",positive,0.633846153846154,0.3846153846153847,uncertain_mixed
+repodb_0d57eaf7fcf55450,Valproic Acid,Absence Epilepsy,positive,0.772,0.5200000000000001,likely_supported
+repodb_0a65b90b3ed1bdce,Paclitaxel,Carcinoma breast stage IV,positive,0.48545454545454547,0.22363636363636366,uncertain_mixed
+repodb_04ab2c145755011f,Azacitidine,Myelofibrosis due to another disorder,negative_or_failed,0.44789818744773224,0.18397560838592605,uncertain_mixed
+repodb_04c33e977f1821df,Tacrolimus,recurrent adult diffuse mixed cell lymphoma,negative_or_failed,0.2984960022812227,0.0,insufficient_or_negative
+repodb_0f5d00f3cf88c277,Prednisolone,Bacterial keratitis,positive,0.398467345116208,0.26902752040299305,uncertain_mixed
+repodb_118c436e16e1ab51,Paclitaxel,Testicular Germ Cell Tumor,negative_or_failed,0.52055746069142,0.28317270549846774,uncertain_mixed
+repodb_06eb7097e0e99337,Demeclocycline,Bronchitis,positive,0.43101024590003534,0.2908561354725347,uncertain_mixed
+repodb_019230a0310bf50c,Donepezil,Advanced cancer,negative_or_failed,0.18570057231193388,0.03074778710331845,insufficient_or_negative
+repodb_0cb807513ccfb28d,Amikacin,Meningitis due to Klebsiella mobilis,positive,0.15071992754648236,0.06473928278103082,insufficient_or_negative
+repodb_0b6a9edc9d19946a,Tamoxifen,Breast cancer recurrent,negative_or_failed,0.1823080801136741,0.08132743534822257,insufficient_or_negative
+repodb_074e03e7fac6728e,Irinotecan,signet ring adenocarcinoma of the rectum,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_093492dbf5eab05f,Norfloxacin,"Pneumonia, Bacterial",positive,0.1436443624395628,0.1436443624395628,insufficient_or_negative
+repodb_11528074473e978b,Gemcitabine,stage IV grade 1 follicular lymphoma,negative_or_failed,0.0,0.0,insufficient_or_negative
+repodb_0b9f9f1795a16598,Aminophylline,Malignant neoplasm of lung,negative_or_failed,0.14,0.14,insufficient_or_negative
+repodb_0f3a4d1dcb0d3feb,Radium Ra 223 Dichloride,Malignant neoplasm of prostate,positive,0.14,0.14,insufficient_or_negative
+repodb_1122a9139b179012,Chlorcyclizine,Allergic Conjunctivitis,positive,0.0,0.0,insufficient_or_negative

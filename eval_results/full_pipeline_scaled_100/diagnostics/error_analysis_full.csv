@@ -1,0 +1,101 @@
+pair_id,drug_name,disease_name,expected_label,predicted_label,confidence_score,correctness_type,full_status,n_pmids_used,n_opentargets_evidence_items,n_graph_paths_used,n_claims,n_verified_claims,n_unsupported_claims,citation_verified_rate,unsupported_claim_rate,notes
+repodb_04246cb3a1c31ef7,Progesterone,Premature Birth,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_0557bc43eff59f45,Theophylline,Asthma,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_0ee62470d8ffb2ae,Cisplatin,Esophageal neoplasm metastatic,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_130d9194853cab0c,Simeprevir,"Hepatitis C, Chronic",positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_0d57eaf7fcf55450,Valproic Acid,Absence Epilepsy,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_0a65b90b3ed1bdce,Paclitaxel,Carcinoma breast stage IV,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_04ab2c145755011f,Azacitidine,Myelofibrosis due to another disorder,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_04c33e977f1821df,Tacrolimus,recurrent adult diffuse mixed cell lymphoma,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_0f5d00f3cf88c277,Prednisolone,Bacterial keratitis,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_118c436e16e1ab51,Paclitaxel,Testicular Germ Cell Tumor,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_06eb7097e0e99337,Demeclocycline,Bronchitis,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_0cb807513ccfb28d,Amikacin,Meningitis due to Klebsiella mobilis,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_019230a0310bf50c,Donepezil,Advanced cancer,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_0b6a9edc9d19946a,Tamoxifen,Breast cancer recurrent,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_093492dbf5eab05f,Norfloxacin,"Pneumonia, Bacterial",positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_074e03e7fac6728e,Irinotecan,signet ring adenocarcinoma of the rectum,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_11528074473e978b,Gemcitabine,stage IV grade 1 follicular lymphoma,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_264af470063c63cf,Ergotamine,Cluster Headache,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_1ec6c8c3ab8e153d,Famotidine,Duodenal Ulcer,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_3ac2b491643eebc5,Ulobetasol,Scalp psoriasis,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_34cf4e0d850b0cdf,Terbutaline,Asthma attack,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_2df019ef279bf716,Finasteride,Benign Prostatic Hyperplasia,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_186a003502efb4a4,Anastrozole,Breast cancer stage II,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_3ed013b16d2870d7,Rituximab,Metastatic melanoma,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_2b3e69b88eb6e850,Salicylic acid,Rheumatoid Arthritis,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_2d37699e9d0940af,Armodafinil,Malignant Glioma,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_35faa8a42490d0eb,Neomycin,Hepatic Coma,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_2a2ce1ecb2c2ca21,Cefadroxil,Tonsillitis,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_156412c5163a4a0d,Meropenem,Complicated appendicitis,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_501b325d181b6967,Brompheniramine,Symptomatic dermographism,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_796385530cf82b80,Triamcinolone,Erythema Multiforme,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_6661b82c49403705,Tretinoin,Acne Vulgaris,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_d8c40b1e86924ab7,Fluorouracil,Superficial basal cell carcinoma,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_0f3a4d1dcb0d3feb,Radium Ra 223 Dichloride,Malignant neoplasm of prostate,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_1122a9139b179012,Chlorcyclizine,Allergic Conjunctivitis,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_1c9fe7093b750409,Voglibose,Gaucher Disease,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_3492a2c7416f136c,Penciclovir,Recurrent genital herpes simplex,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_2436d79d27a90f1c,Aztreonam,Escherichia coli Infections,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_21e452ae84c99058,Melphalan,Malignant neoplasm of ovary,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_3929968928f5f083,Amphotericin B,Urinary tract infection,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_222be68f2c0e59e2,Carbachol,"Glaucoma, Open-Angle",positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_240d4dcb6f70913a,Brompheniramine,Influenza-like symptoms,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_9aaec2b25611002c,Dexibuprofen,Headache Disorders,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_61e3269e25aaf57a,Econazole,Tinea cruris,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_f6a69939a4bd7fff,Dicoumarol,Thromboembolism,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_ffcda1e7ed3ed873,Sulindac,Rheumatoid Arthritis,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_f2b441907911d65b,Paroxetine,Generalized Anxiety Disorder,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_e90a5a7781ce8247,Levofloxacin,Staphylococcus aureus infection,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_95cb9474b5eb89ee,Doxepin,Severe major depression with psychotic features,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_c58f90d1279788ca,Carvedilol,Chronic heart failure,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_ee6d9eb0e2be784e,Atorvastatin,Hypertensive disease,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_a7f96c8d6ec8725b,Testosterone Propionate,Delayed Puberty,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_570b3f30db022c20,Lornoxicam,Pain,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_ad9d3080b5b125d2,Beclomethasone dipropionate,Allergic rhinitis (disorder),positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_cfb4e9bbf2a46f6b,Doxepin,Sleeplessness,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_880a34e4a79300ac,Dextromethorphan,Coughing,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_84f6a08cae6ad26e,Dexpanthenol,Dermatologic disorders,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_9ee53098a53b7664,Oxytetracycline,Rocky Mountain Spotted Fever,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_f4ce92507dec471d,Dorzolamide,"Glaucoma, Open-Angle",positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_82ac65d9eff679b0,Fenoldopam,Hypertensive urgency,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_5f5e48d0f7379318,Clindamycin,Staphylococcal Pneumonia,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_c007885e45ff4081,Cefprozil,Acute Moraxella catarrhalis bronchitis,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_6b5ca4a47dd543ea,Norepinephrine,Hypotension,positive,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_3ab2a1d014ffd529,Cisplatin,Non-Small Cell Lung Carcinoma,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_1f67590639394d16,Doxorubicin,stage IV adult diffuse large cell lymphoma,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_6884c00bc2eaf8b7,Pravastatin,adult acute myeloblastic leukemia with maturation (M2),negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_4e3a88dea61cb998,Levoleucovorin,Stage IV Pancreatic Cancer,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_76fa1ea3c3ab907d,Dacarbazine,Adenocarcinoma,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_b492ce9382abd005,Sorafenib,stage III papillary thyroid cancer,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_0b9f9f1795a16598,Aminophylline,Malignant neoplasm of lung,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_3b065d5df2b47d0b,Gemcitabine,Bladder cancer stage III,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_3662c26db0147ddc,Paclitaxel,Pancreatic adenocarcinoma metastatic,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_386a9fa70fbff208,Bortezomib,Mycosis fungoides/Sezary syndrome stage III,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_2755c3883022ca29,Irinotecan,Mucinous adenocarcinoma of colon,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_2d0e801613852c62,Cyclosporine,Myeloid Leukemia,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_2a6d55aafa61aa89,Sunitinib,Oropharyngeal squamous cell carcinoma recurrent,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_31348d54f6f4cd74,Aminolevulinic acid,Cervical Intraepithelial Neoplasia,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_2bbe735fb6b2766c,Ofloxacin,Infection in solid organ transplant recipients,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_1f4ca25eed5d6b3c,Everolimus,Malignant tumor of colon,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_656f19978d5e8883,Acetylsalicylic acid,Low density lipoprotein increased,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_fc6cab9d35a9ace1,Idarubicin,adult acute myeloblastic leukemia with maturation (M2),negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_9ba28aa733f15026,Gemcitabine,Marginal zone lymphoma recurrent,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_9db05c4413619dcf,Oxaliplatin,Stage IIC Rectal Cancer,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_4b4d9facf2510362,Dexamethasone,Acute fungal otitis externa,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_c60fe1f73e8ba2f9,Sunitinib,cognitive/functional effects,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_afc5e1b286c41d8f,Bortezomib,Mycosis fungoides/Sezary syndrome stage IV,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_de0ed53d02a3ca36,Aripiprazole,Schizoaffective Disorder,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_954be9dd50df35b7,Sunitinib,Pancreatic carcinoma,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_4749a32029b1d907,Azacitidine,adult acute eosinophilic leukemia,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_4e846c792274ff9f,Hydroxyurea,Pulmonary Hypertension,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_6be992665272425d,Verapamil,Classical phenylketonuria,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_99cbfc97d83fb7f7,Fludarabine,chronic myelogenous leukemia in relapse,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_cd97e8c429559b29,Paclitaxel,Non-small cell lung cancer stage IIIB,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_9693fc0d7f97136f,Methotrexate,Malignant neoplasm of ovary,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_b86738ff60952e56,Doxorubicin,colon cancer liver metastasis,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_d3221e1c851baead,Lenalidomide,Chronic lymphocytic leukaemia stage 4,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_a0a83ee0b86e89f7,Niacin,Psoriasis,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_947663f51d4e1d54,Tacrolimus,chronic myelogenous leukemia in relapse,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_a306dcb631ec4f35,Abatacept,Alopecia Areata,negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.
+repodb_580e1ac7e68d5d79,Pravastatin,adult acute monocytic leukemia (M5b),negative_or_failed,TODO_NOT_RUN,,skipped,TODO_NOT_RUN,,,,,,,,,Skipped for binary metrics because status or labels were not evaluable.

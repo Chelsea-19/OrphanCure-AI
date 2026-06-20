@@ -1,0 +1,2 @@
+pair_id,drug_name,disease_name,opentargets_drug_id,opentargets_disease_id,target_symbol,target_id,evidence_type,association_score,drug_target_support,disease_target_support,source,source_url_or_id,status,error_message,notes
+repodb_0ee62470d8ffb2ae,Cisplatin,Esophageal neoplasm metastatic,CHEMBL11359,MONDO_0007576,,,status,,False,False,Open Targets Platform GraphQL API,,partial_success,drug_targets: 'NoneType' object has no attribute 'get',"Open Targets is external support evidence, not a clinical gold label."

@@ -1,0 +1,39 @@
+{
+  "source_name": "repoDB",
+  "source_file_path_or_url": "data\\external\\repodb.csv",
+  "source_doi": "10.6084/m9.figshare.c.3462048",
+  "date_prepared": "2026-06-03T02:58:58.416541+00:00",
+  "raw_rows": 10800,
+  "prepared_rows": 200,
+  "number_of_positive_pairs": 100,
+  "number_of_negative_or_failed_pairs": 100,
+  "number_of_todo_review_pairs": 0,
+  "filtering_rules": {
+    "include_positive": true,
+    "include_negative": true,
+    "max_pairs": 200,
+    "balanced": true,
+    "seed": 42,
+    "min_name_length": 2,
+    "exclude_ambiguous": true
+  },
+  "label_mapping_rules": {
+    "positive": [
+      "approved indication",
+      "approved",
+      "approve"
+    ],
+    "negative_or_failed": [
+      "not approved",
+      "terminated",
+      "withdrawn",
+      "suspended",
+      "failed",
+      "failure",
+      "no development",
+      "program terminated",
+      "trial halted"
+    ],
+    "ambiguous_unknown_missing": "TODO_REVIEW unless --exclude_ambiguous is set"
+  }
+}

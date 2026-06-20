@@ -1,0 +1,80 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\geometry{margin=1in}
+
+\title{Supplementary Material for OrphanCure}
+\author{TODO\_AUTHOR\_NAME}
+\date{v0.1.0-research-demo}
+
+\begin{document}
+\maketitle
+
+\section{Agent Modes}
+The release documents the following evaluation modes: \texttt{full}, \texttt{no\_verifier}, \texttt{no\_target\_expansion}, \texttt{no\_graph\_features}, \texttt{pubmed\_only\_report}, and \texttt{structured\_only\_report}. Prompt details should be reviewed before publication to ensure no sensitive API settings or unsafe biomedical instructions are disclosed.
+
+\section{Additional Tables}
+\begin{table}[htbp]
+\centering
+\caption{50-pair run status.}
+\begin{tabular}{lr}
+\toprule
+Status & Count \\
+\midrule
+completed & 42 \\
+partial\_success & 8 \\
+failed & 0 \\
+TODO\_NOT\_RUN & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{50-pair no-verifier status.}
+\begin{tabular}{lr}
+\toprule
+Status & Count \\
+\midrule
+completed & 41 \\
+partial\_success & 9 \\
+failed & 0 \\
+unsupported claim rate & 1.0 \\
+citation verified rate & 0.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Selected Case Metadata}
+\begin{longtable}{p{0.23\linewidth}p{0.17\linewidth}p{0.25\linewidth}p{0.22\linewidth}}
+\toprule
+Pair ID & Drug & Disease & Case type \\
+\midrule
+repodb\_0557bc43eff59f45 & Theophylline & Asthma & correct\_positive \\
+repodb\_118c436e16e1ab51 & Paclitaxel & Testicular Germ Cell Tumor & correct\_negative\_or\_failed \\
+repodb\_04246cb3a1c31ef7 & Progesterone & Premature Birth & verifier\_effect \\
+repodb\_0ee62470d8ffb2ae & Cisplatin & Esophageal neoplasm metastatic & incorrect\_but\_informative \\
+repodb\_04ab2c145755011f & Azacitidine & Myelofibrosis due to another disorder & partial\_success\_error\_analysis \\
+\bottomrule
+\end{longtable}
+
+All case studies remain \texttt{TODO\_MANUAL\_REVIEW}.
+
+\section{Release and Deployment Notes}
+The Streamlit app entry point is \texttt{app/streamlit\_app.py}. Demo mode is enabled by default and does not require API keys. Raw external data and caches are excluded from the release.
+
+\section{Reproducibility Commands}
+\begin{verbatim}
+python scripts/validate_benchmark_files.py
+python scripts/prepare_pubmed_baseline.py --help
+python scripts/run_full_pipeline_eval.py --help
+streamlit run app/streamlit_app.py
+\end{verbatim}
+
+\section{Validation Checks}
+The release should be checked with Python syntax parsing, available tests, and LaTeX compilation where tools are installed.
+
+\end{document}

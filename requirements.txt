@@ -1,0 +1,14 @@
+# Core
+streamlit>=1.30.0
+requests>=2.31.0
+pandas>=2.0.0
+graphviz>=0.20
+
+# LLM Provider
+google-genai>=1.0.0
+
+# Data validation
+pydantic>=2.5.0
+
+# Config
+python-dotenv>=1.0.0

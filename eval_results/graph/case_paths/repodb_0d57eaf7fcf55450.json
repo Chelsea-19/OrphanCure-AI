@@ -1,0 +1,14 @@
+[
+  {
+    "pair_id": "repodb_0d57eaf7fcf55450",
+    "path_id": "repodb_0d57eaf7fcf55450_path_1",
+    "path_length": 1,
+    "path_nodes": "[\"Valproic acid\", \"absence epilepsy\"]",
+    "path_relations": "[\"indication\"]",
+    "path_node_types": "[\"drug\", \"disease\"]",
+    "graph_source": "primekg",
+    "path_score": 1.0,
+    "status": "success",
+    "notes": "Graph path only; not proof of drug efficacy."
+  }
+]

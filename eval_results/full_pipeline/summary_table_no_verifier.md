@@ -1,0 +1,28 @@
+# Full Pipeline Evaluation Summary
+
+| Metric | Value |
+|---|---:|
+| accuracy | 0.375 |
+| precision | 0.42857142857142855 |
+| recall | 0.3333333333333333 |
+| f1 | 0.375 |
+| roc_auc | 0.40476190476190477 |
+| benchmark | full_pipeline |
+| mode | no_verifier |
+| status | completed |
+| n_evaluated_pairs | 16 |
+| n_skipped_pairs | 4 |
+| mean_n_claims | 1.0 |
+| mean_n_verified_claims | 0.0 |
+| mean_n_unsupported_claims | 1.0 |
+| citation_verified_rate | 0.0 |
+| unsupported_claim_rate | 1.0 |
+| mean_n_pmids_used | 15.35 |
+| mean_n_opentargets_evidence_items | 0.6 |
+| mean_n_graph_paths_used | 0.6 |
+| mean_runtime_seconds | 17.274045099987415 |
+| success_rate | 0.8 |
+| partial_success_rate | 0.2 |
+| failure_rate | 0.0 |
+
+Full-pipeline metrics are report/evaluation metrics over generated outputs. They are not clinical validation.

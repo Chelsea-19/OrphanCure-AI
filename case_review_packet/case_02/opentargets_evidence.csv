@@ -1,0 +1,2 @@
+pair_id,drug_name,disease_name,opentargets_drug_id,opentargets_disease_id,target_symbol,target_id,evidence_type,association_score,drug_target_support,disease_target_support,source,source_url_or_id,status,error_message,notes
+repodb_118c436e16e1ab51,Paclitaxel,Testicular Germ Cell Tumor,CHEMBL428647,EFO_1000566,,,status,,False,False,Open Targets Platform GraphQL API,,success,,"Open Targets is external support evidence, not a clinical gold label."

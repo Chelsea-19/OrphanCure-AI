@@ -1,0 +1,6 @@
+drug_name,drug_id,ind_name,ind_id,status
+Drug Alpha,DB001,Disease One,C0000001,Approved
+Drug Beta,DB002,Disease One,C0000001,Program Terminated
+Drug Gamma,DB003,Disease Two,C0000002,Suspended
+Drug Delta,DB004,Disease Two,C0000002,Approve
+

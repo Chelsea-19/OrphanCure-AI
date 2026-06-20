@@ -1,0 +1,13 @@
+mode,status,accuracy,precision,recall,f1,roc_auc,n_evaluated_pairs,n_skipped_pairs,threshold,threshold_source,notes
+opentargets_only,completed,0.5,0.5,1.0,0.6666666666666666,0.5216,50.0,150.0,0.0,dev_split_max_f1,Metrics compare transparent baseline scores against repoDB proxy labels only.
+graph_only,completed,0.5,0.5,1.0,0.6666666666666666,0.5432,50.0,150.0,0.0,dev_split_max_f1,Metrics compare transparent baseline scores against repoDB proxy labels only.
+pubmed_only,completed,0.55,0.5333333333333333,0.8,0.64,0.56,20.0,180.0,0.35,fixed_threshold_insufficient_dev,Metrics compare transparent baseline scores against repoDB proxy labels only.
+ot_plus_graph,completed,0.5,0.5,1.0,0.6666666666666666,0.5664,50.0,150.0,0.0,dev_split_max_f1,Metrics compare transparent baseline scores against repoDB proxy labels only.
+heuristic_combined,completed,0.5,0.5,1.0,0.6666666666666666,0.5712,50.0,150.0,0.0,dev_split_max_f1,Metrics compare transparent baseline scores against repoDB proxy labels only.
+combined_structured_literature,completed,0.55,0.5454545454545454,0.6,0.5714285714285713,0.56,20.0,180.0,0.35,fixed_threshold_insufficient_dev,Metrics compare transparent baseline scores against repoDB proxy labels only.
+full,completed,0.4375,0.5,0.3333333333333333,0.4,0.46825396825396826,16.0,4.0,,,Full-pipeline metrics are report/evaluation metrics over generated outputs. They are not clinical validation.
+no_verifier,completed,0.375,0.42857142857142855,0.3333333333333333,0.375,0.40476190476190477,16.0,4.0,,,Full-pipeline metrics are report/evaluation metrics over generated outputs. They are not clinical validation.
+no_target_expansion,completed,0.4666666666666667,0.5,0.5,0.5,0.4642857142857143,15.0,5.0,,,Full-pipeline metrics are report/evaluation metrics over generated outputs. They are not clinical validation.
+no_graph_features,completed,0.5,0.5714285714285714,0.4444444444444444,0.5,0.5,16.0,4.0,,,Full-pipeline metrics are report/evaluation metrics over generated outputs. They are not clinical validation.
+pubmed_only_report,TODO_NOT_RUN,,,,,,0.0,200.0,,,Full-pipeline ablation output is not available; no results are fabricated.
+structured_only_report,TODO_NOT_RUN,,,,,,0.0,200.0,,,Full-pipeline ablation output is not available; no results are fabricated.

@@ -1,0 +1,82 @@
+# Environment & Secrets
+.env
+*.env.local
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyc.*
+*.pyo
+*.pyd
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Local runtime artifacts
+logs/
+tmp/
+cache/
+.ipynb_checkpoints/
+*.log
+
+# Evaluation artifacts and downloaded benchmark data
+outputs/
+eval_results/raw_outputs/
+eval_results/**/raw_outputs/
+!eval_results/raw_outputs/.gitkeep
+data/benchmarks/repodb/*.csv
+data/benchmarks/repodb/*.rda
+data/benchmarks/repodb/*.RData
+data/benchmark/**/*.csv
+data/benchmark/**/*.tsv
+data/benchmark/**/*.jsonl
+data/benchmark/**/*.rda
+data/benchmark/**/*.RData
+data/external/**
+!data/external/.gitkeep
+
+# Local model and API cache folders
+/.cache/
+/models/
+/model_cache/
+/hf_cache/
+/.huggingface/
+/checkpoints/
+
+# Legacy app files (kept for reference but not part of the new system)
+app.py
+app2.py
+app3.py
+app5.py
+app6.py

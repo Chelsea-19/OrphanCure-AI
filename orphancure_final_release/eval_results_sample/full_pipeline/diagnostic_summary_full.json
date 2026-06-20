@@ -1,0 +1,82 @@
+{
+  "confusion_counts": {
+    "FN": 6,
+    "partial": 4,
+    "TN": 4,
+    "FP": 3,
+    "TP": 3
+  },
+  "error_patterns": {
+    "false_positives": 3,
+    "false_negatives": 6,
+    "fp_pubmed_comention_inflation": 1,
+    "fp_noisy_negative_or_failed_labels": 2,
+    "fn_missing_open_targets_graph_or_pubmed_evidence": 5,
+    "fn_conservative_negative_outputs": 1,
+    "partial_success_rows": 4,
+    "malformed_or_low_confidence_outputs": 4,
+    "main_interpretation": "Low F1 is driven mainly by false negatives from conservative or no-evidence full-agent outputs, with additional false positives on PubMed-heavy negative_or_failed rows."
+  },
+  "best_thresholds": {
+    "score_column": "full_confidence_score_original",
+    "calibration_source": "dev_split_exploratory_small_n",
+    "exploratory": true,
+    "n_dev_rows": 3,
+    "n_total_evaluable_rows": 16,
+    "thresholds": {
+      "default_threshold": 0.5,
+      "best_f1_threshold": 0.55,
+      "best_balanced_accuracy_threshold": 0.55,
+      "high_precision_threshold": 0.55,
+      "high_recall_threshold": 0.55
+    },
+    "notes": "Thresholds were selected using dev rows only. Because the selected full-agent subset has fewer than 10 evaluable dev rows, calibration is exploratory."
+  },
+  "best_alternative_score": {
+    "score_name": "safety_penalized_score",
+    "threshold": 0.06473928278103082,
+    "threshold_source": "dev_split_exploratory_small_n",
+    "n_evaluated_pairs": 20,
+    "accuracy": 0.65,
+    "precision": 0.6,
+    "recall": 0.9,
+    "f1": 0.7200000000000001,
+    "roc_auc": 0.72,
+    "balanced_accuracy": 0.65,
+    "tn": 4,
+    "fp": 6,
+    "fn": 1,
+    "tp": 9
+  },
+  "triage_metrics": {
+    "accuracy": 0.6153846153846154,
+    "precision": 0.6666666666666666,
+    "recall": 0.3333333333333333,
+    "f1": 0.4444444444444444,
+    "roc_auc": 0.5357142857142857,
+    "confusion_matrix": {
+      "tn": 6,
+      "fp": 1,
+      "fn": 4,
+      "tp": 2
+    },
+    "score_column": "clinical_support_score",
+    "low_threshold": 0.25,
+    "high_threshold": 0.65,
+    "coverage_rate": 0.65,
+    "abstention_rate": 0.35,
+    "accuracy_on_covered_cases": 0.6153846153846154,
+    "n_covered": 13,
+    "n_uncertain": 7,
+    "notes": "Triage uses fixed score bands and abstains on the uncertain middle band."
+  },
+  "outputs": {
+    "error_analysis": "D:\\OrphanCure\\eval_results\\full_pipeline\\error_analysis_full.csv",
+    "confusion_matrix": "D:\\OrphanCure\\eval_results\\full_pipeline\\confusion_matrix_full.md",
+    "threshold_calibration": "D:\\OrphanCure\\eval_results\\full_pipeline\\threshold_calibration.csv",
+    "best_thresholds": "D:\\OrphanCure\\eval_results\\full_pipeline\\best_thresholds.json",
+    "threshold_curve": "D:\\OrphanCure\\docs\\figures\\full_pipeline_threshold_curve.png",
+    "alternative_score_comparison": "D:\\OrphanCure\\eval_results\\full_pipeline\\alternative_score_comparison.csv",
+    "triage_classification": "D:\\OrphanCure\\eval_results\\full_pipeline\\triage_classification_full.csv"
+  }
+}

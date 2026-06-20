@@ -1,0 +1,22 @@
+{
+  "accuracy": 0.6153846153846154,
+  "precision": 0.6666666666666666,
+  "recall": 0.3333333333333333,
+  "f1": 0.4444444444444444,
+  "roc_auc": 0.5357142857142857,
+  "confusion_matrix": {
+    "tn": 6,
+    "fp": 1,
+    "fn": 4,
+    "tp": 2
+  },
+  "score_column": "clinical_support_score",
+  "low_threshold": 0.25,
+  "high_threshold": 0.65,
+  "coverage_rate": 0.65,
+  "abstention_rate": 0.35,
+  "accuracy_on_covered_cases": 0.6153846153846154,
+  "n_covered": 13,
+  "n_uncertain": 7,
+  "notes": "Triage uses fixed score bands and abstains on the uncertain middle band."
+}

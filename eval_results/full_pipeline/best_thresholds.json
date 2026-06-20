@@ -1,0 +1,15 @@
+{
+  "score_column": "full_confidence_score_original",
+  "calibration_source": "dev_split_exploratory_small_n",
+  "exploratory": true,
+  "n_dev_rows": 3,
+  "n_total_evaluable_rows": 16,
+  "thresholds": {
+    "default_threshold": 0.5,
+    "best_f1_threshold": 0.55,
+    "best_balanced_accuracy_threshold": 0.55,
+    "high_precision_threshold": 0.55,
+    "high_recall_threshold": 0.55
+  },
+  "notes": "Thresholds were selected using dev rows only. Because the selected full-agent subset has fewer than 10 evaluable dev rows, calibration is exploratory."
+}
